@@ -1,0 +1,196 @@
+@font-face {
+    font-family: bold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+.main-template{
+    background-color:hsl(235, 18%, 26%);
+    width: 100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-temp-content{
+    background-color: white;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    box-shadow: 5px 5px 5px rgba(0,0 ,0,0.5);
+}
+
+.main-content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.main-content-left{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-box-left{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.biggest-text{
+    font-family:bold;
+    font-size:55px;
+    color:hsl(234, 29%, 20%);
+}
+
+.smallText{
+    font-family:regular;
+    font-size:16px;
+    color:hsl(234, 29%, 20%);
+}
+
+.list-text,p{
+    color:hsl(234, 29%, 20%);
+    font-family: regular;
+    font-size:16px;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.small-boxes{
+    width: 350px;
+    height: 30px;
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    gap:0.9rem;
+}
+
+.small-box-img {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url(assets/images/icon-success.svg);
+    background-position: center;
+    background-size:cover;
+}
+
+.left-inputs{
+    width: 300px;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:0.5rem;
+    background-color: transparent;
+}
+
+
+.left-input-small-text-email{
+    font-family: bold;
+    font-size:12px;
+}
+
+#left-email-input{
+    border:1px solid black;
+    width: 296px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.left-input-btn{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-family:bold;
+    font-size:14px;    
+    color:white;
+    border:none;
+    background-color:hsl(234, 29%, 20%);
+}
+
+.left-input-btn:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+
+
+
+.main-content-right{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-box-right{
+    width: 90%;
+    height: 92%;
+    background-color: pink;
+    background-image: url(assets/images/illustration-sign-up-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+/*Success TAB POP UP*/
+
+.success-tab-pop{
+    box-shadow: 5px 5px 5px rgba(0,0 ,0,0.5);
+    background-color: white;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10%;
+    display:none;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position:absolute;
+    top:200px;
+    left:700px;
+}
+
+.success-tab-pop-box{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.success-pic {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/images/icon-success.svg);
+    background-position:center;
+    background-size:cover;
+
+}
